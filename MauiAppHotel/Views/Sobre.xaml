@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre o App"
+             NavigationPage.HasNavigationBar="False"
+             NavigationPage.HasBackButton="True"
+             BackgroundColor="#FFF8F5F2">
+
+    <Grid>
+    
+    <VerticalStackLayout VerticalOptions="CenterAndExpand">
+        <Label Text="Thiago Linares de Abreu"
+               TextColor="#FF5E7C8C"
+               FontSize="25"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+        <Label Text="Desenvolvido em 2025"
+               TextColor="{StaticResource OffBlack}"
+               HorizontalOptions="Center"/>
+        
+        <Button Text="Voltar"
+            Clicked="Button_Clicked"
+            BackgroundColor="#FF5E7C8C"
+            TextColor="White"
+            CornerRadius="10"
+            Margin="20"
+            HeightRequest="50"
+            HorizontalOptions="Center"
+            VerticalOptions="End"/>
+            
+    </VerticalStackLayout>
+
+    </Grid>
+</ContentPage>
